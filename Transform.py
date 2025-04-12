@@ -3,7 +3,7 @@ import os
 
 def transform_data():
     # Step 1: Load the extracted data
-    data_path = '/home/divithraju/Downloads/salesdata/combined_sales.csv'
+    data_path = '/home/mouadelaouiz/Downloads/salesdata/combined_sales.csv'
     df = pd.read_csv(data_path)
 
     # Step 2: Handle missing values

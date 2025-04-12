@@ -6,7 +6,7 @@ from scripts.transform import transform_data
 from scripts.load import load_data
 
 default_args = {
-    'owner': 'divithraju',
+    'owner': 'mouadelaouiz',
     'depends_on_past': False,
     'start_date': datetime(2024, 8, 20),
     'retries': 1,
