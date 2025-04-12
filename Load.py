@@ -3,14 +3,14 @@ import mysql.connector
 
 def load_data():
     # Load the transformed data
-    transformed_data_path = '/home/divithraju/Downloads/salesdata/transformed_region_sales.csv'
+    transformed_data_path = '/home/mouadelaouiz/Downloads/salesdata/transformed_region_sales.csv'
     df = pd.read_csv(transformed_data_path)
     
     # Establish connection to MySQL
     conn = mysql.connector.connect(
         host='localhost',
-        user='divithraju',
-        password='Divi#567',
+        user='mouadelaouiz',
+        password='Mou&Ad',
         database='sales_db'
     )
     cursor = conn.cursor()
